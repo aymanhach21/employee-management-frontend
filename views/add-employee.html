@@ -1,0 +1,22 @@
+<div>
+    <h2>Add Employee</h2>
+    <form ng-submit="addEmployee()">
+        <div class="form-group">
+            <label>First Name:</label>
+            <input type="text" ng-model="newEmployee.firstName" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Last Name:</label>
+            <input type="text" ng-model="newEmployee.lastName" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Email:</label>
+            <input type="email" ng-model="newEmployee.email" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label>Department:</label>
+            <input type="text" ng-model="newEmployee.department" class="form-control" required>
+        </div>
+        <button type="submit" class="btn btn-success">Add</button>
+    </form>
+</div>
